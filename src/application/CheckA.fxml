@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="477.0" prefWidth="1050.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.checka">
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="not" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;">
+               <VBox.margin>
+                  <Insets left="450.0" top="50.0" />
+               </VBox.margin>
+            </Label>
+            <TableView fx:id="chk" prefHeight="200.0" prefWidth="810.0">
+              <columns>
+                <TableColumn fx:id="sno" prefWidth="75.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="#" />
+                <TableColumn fx:id="no" minWidth="0.0" prefWidth="134.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="BUS NUMBER" />
+                  <TableColumn fx:id="at" prefWidth="148.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="ARRIVAL TIME" />
+                  <TableColumn fx:id="dt" prefWidth="167.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="DEPARTURE TIME" />
+                  <TableColumn fx:id="amt" prefWidth="112.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="AMOUNT" />
+                  <TableColumn fx:id="book" prefWidth="173.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="BOOK" />
+              </columns>
+               <VBox.margin>
+                  <Insets left="120.0" right="120.0" top="50.0" />
+               </VBox.margin>
+            </TableView>
+            <JFXButton fx:id="back" onAction="#back" style="-fx-border-color: black;" text="BACK">
+               <VBox.margin>
+                  <Insets left="120.0" top="50.0" />
+               </VBox.margin>
+            </JFXButton>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

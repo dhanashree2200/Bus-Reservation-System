@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="744.0" prefWidth="1138.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UP1">
+   <left>
+      <VBox prefHeight="755.0" prefWidth="231.0" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton fx:id="book" alignment="BOTTOM_CENTER" contentDisplay="TOP" onAction="#bookTicket" prefHeight="145.0" prefWidth="246.0" text="BOOK TICKET">
+               <graphic>
+                  <ImageView fitHeight="90.0" fitWidth="108.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ticket.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <Separator prefWidth="200.0" />
+            <JFXButton fx:id="view" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" onAction="#viewTicket" prefHeight="145.0" prefWidth="246.0" text="VIEW TICKET">
+               <graphic>
+                  <ImageView fitHeight="90.0" fitWidth="108.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@view.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <Separator layoutX="10.0" layoutY="155.0" prefWidth="200.0" />
+            <JFXButton fx:id="cancel" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="155.0" onAction="#cancelTicket" prefHeight="145.0" prefWidth="246.0" text="CANCEL TICKET">
+               <graphic>
+                  <ImageView fitHeight="86.0" fitWidth="73.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@cancel.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <Separator layoutX="10.0" layoutY="303.0" prefWidth="200.0" />
+            <JFXButton fx:id="about" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="300.0" onAction="#about" prefHeight="145.0" prefWidth="246.0" text="ABOUT-US">
+               <graphic>
+                  <ImageView fitHeight="86.0" fitWidth="73.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@about-us.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <Separator layoutX="10.0" layoutY="451.0" prefWidth="200.0" />
+            <JFXButton fx:id="contact" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="445.0" onAction="#contact" prefHeight="145.0" prefWidth="246.0" text="CONTACT-US">
+               <graphic>
+                  <ImageView fitHeight="86.0" fitWidth="73.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@contact-us.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </VBox>
+   </left>
+</BorderPane>

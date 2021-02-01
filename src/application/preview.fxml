@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="893.0" prefWidth="1236.0" style="-fx-background-color: #f3f1f2;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Preview">
+   <children>
+      <VBox layoutX="62.0" layoutY="57.0" prefHeight="294.0" prefWidth="324.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Label style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="JOURNEY">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="date" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Label">
+               <VBox.margin>
+                  <Insets left="10.0" top="40.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="from1" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Label">
+               <VBox.margin>
+                  <Insets left="10.0" top="30.0" />
+               </VBox.margin>
+            </Label>
+            <Label style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="at">
+               <VBox.margin>
+                  <Insets left="100.0" top="-23.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="at" layoutX="20.0" layoutY="117.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Label">
+               <VBox.margin>
+                  <Insets left="150.0" top="-23.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="to1" layoutX="20.0" layoutY="117.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Label">
+               <VBox.margin>
+                  <Insets left="10.0" top="30.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="110.0" layoutY="118.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="at">
+               <VBox.margin>
+                  <Insets left="100.0" top="-23.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="dt" layoutX="160.0" layoutY="119.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Label">
+               <VBox.margin>
+                  <Insets left="150.0" top="-23.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="from" layoutX="160.0" layoutY="162.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Label">
+               <VBox.margin>
+                  <Insets left="10.0" top="30.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="110.0" layoutY="161.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="-">
+               <VBox.margin>
+                  <Insets left="100.0" top="-20.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="to" layoutX="20.0" layoutY="203.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Label">
+               <VBox.margin>
+                  <Insets left="150.0" top="-23.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+         <effect>
+            <DropShadow height="64.54" radius="29.4375" width="55.21" />
+         </effect>
+      </VBox>
+      <VBox layoutX="463.0" layoutY="57.0" prefHeight="294.0" prefWidth="324.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Label style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="TICKETS">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Seat No.">
+               <VBox.margin>
+                  <Insets left="10.0" top="40.0" />
+               </VBox.margin>
+            </Label>
+            <Label style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="=">
+               <VBox.margin>
+                  <Insets left="100.0" top="-20.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="seats" layoutX="20.0" layoutY="117.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Label">
+               <VBox.margin>
+                  <Insets left="150.0" top="-23.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="20.0" layoutY="86.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Total Seats">
+               <VBox.margin>
+                  <Insets left="10.0" top="40.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="110.0" layoutY="88.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="=">
+               <VBox.margin>
+                  <Insets left="100.0" top="-23.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="tot1" layoutX="160.0" layoutY="87.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Label">
+               <VBox.margin>
+                  <Insets left="150.0" top="-23.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+         <effect>
+            <DropShadow height="64.54" radius="29.4375" width="55.21" />
+         </effect>
+      </VBox>
+      <VBox layoutX="857.0" layoutY="57.0" prefHeight="294.0" prefWidth="324.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Label style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="PAYMENT">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="tot" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Label">
+               <VBox.margin>
+                  <Insets left="10.0" top="40.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="20.0" layoutY="96.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="*">
+               <VBox.margin>
+                  <Insets left="50.0" top="-20.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="price" layoutX="20.0" layoutY="96.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Label">
+               <VBox.margin>
+                  <Insets left="80.0" top="-23.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="totp" layoutX="110.0" layoutY="97.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Label">
+               <VBox.margin>
+                  <Insets left="80.0" top="40.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="90.0" layoutY="97.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Total">
+               <VBox.margin>
+                  <Insets left="10.0" top="-20.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="90.0" layoutY="97.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="=">
+               <VBox.margin>
+                  <Insets left="60.0" top="-23.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+         <effect>
+            <DropShadow height="64.54" radius="29.4375" width="55.21" />
+         </effect>
+      </VBox>
+      <Label layoutX="62.0" layoutY="403.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Personal Details">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="461.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif; -fx-font-weight: bold; -fx-font-size: 17px;" text="Title:" />
+      <Label layoutX="60.0" layoutY="516.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif; -fx-font-weight: bold; -fx-font-size: 17px;" text="First Name:" />
+      <Label layoutX="60.0" layoutY="576.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif; -fx-font-weight: bold; -fx-font-size: 17px;" text="Last Name:" />
+      <Label layoutX="63.0" layoutY="635.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif; -fx-font-weight: bold; -fx-font-size: 17px;" text="Phone Number:" />
+      <Label layoutX="63.0" layoutY="690.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif; -fx-font-weight: bold; -fx-font-size: 17px;" text="Email:" />
+      <Label layoutX="63.0" layoutY="740.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif; -fx-font-weight: bold; -fx-font-size: 17px;" text="Booking Number:" />
+      <Label fx:id="t1" layoutX="237.0" layoutY="461.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Label" />
+      <Label fx:id="f1" layoutX="237.0" layoutY="513.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Label" />
+      <Label fx:id="l1" layoutX="237.0" layoutY="573.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Label" />
+      <Label fx:id="p1" layoutX="237.0" layoutY="632.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Label" />
+      <Label fx:id="e1" layoutX="237.0" layoutY="687.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Label" />
+      <Label fx:id="b1" layoutX="237.0" layoutY="737.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Label" />
+      <JFXButton fx:id="confirm" layoutX="590.0" layoutY="819.0" onAction="#confirm" prefHeight="52.0" prefWidth="125.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif; -fx-background-color: #3498DB;" text="CONFIRM" />
+      <Hyperlink layoutX="63.0" layoutY="790.0" onMouseClicked="#download" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Download Ticket">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</AnchorPane>

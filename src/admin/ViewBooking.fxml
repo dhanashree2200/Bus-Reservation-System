@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="610.0" prefWidth="1181.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.ViewBooking">
+   <children>
+      <Label layoutX="153.0" layoutY="58.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="From:" />
+      <JFXComboBox fx:id="from" layoutX="280.0" layoutY="53.0" prefHeight="31.0" prefWidth="181.0" promptText="-- Choose --" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" />
+      <Label layoutX="499.0" layoutY="58.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="To:" />
+      <JFXComboBox fx:id="to" layoutX="622.0" layoutY="53.0" prefHeight="31.0" prefWidth="181.0" promptText="-- Choose --" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" />
+      <JFXButton layoutX="882.0" layoutY="45.0" onAction="#submit" prefHeight="47.0" prefWidth="147.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif; -fx-background-color: #3498DB;" text="SUBMIT" />
+      <TableView fx:id="view" layoutX="187.0" layoutY="180.0" prefHeight="280.0" prefWidth="807.0">
+        <columns>
+          <TableColumn fx:id="s1" prefWidth="75.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="#" />
+          <TableColumn fx:id="b1" prefWidth="164.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="BOOKING NUMBER" />
+            <TableColumn fx:id="u1" prefWidth="141.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="USER NAME" />
+            <TableColumn fx:id="d1" prefWidth="121.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="DATE" />
+            <TableColumn fx:id="bn1" prefWidth="154.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="BUS NUMBER" />
+            <TableColumn fx:id="se1" prefWidth="154.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="SEATS" />
+        </columns>
+      </TableView>
+      <Label fx:id="empty" layoutX="557.0" layoutY="108.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" textFill="RED" />
+   </children>
+</AnchorPane>

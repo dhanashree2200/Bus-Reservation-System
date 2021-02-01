@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="611.0" prefWidth="1069.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.busdetails">
+   <children>
+      <Label layoutX="56.0" layoutY="46.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="From:" />
+      <JFXComboBox fx:id="f1" layoutX="115.0" layoutY="41.0" prefHeight="31.0" prefWidth="195.0" promptText="-- Choose --" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" />
+      <Label layoutX="392.0" layoutY="46.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="To:" />
+      <JFXComboBox fx:id="t1" layoutX="437.0" layoutY="41.0" prefHeight="31.0" prefWidth="195.0" promptText="-- Choose --" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" />
+      <TableView fx:id="details" layoutX="104.0" layoutY="157.0" prefHeight="297.0" prefWidth="862.0">
+        <columns>
+          <TableColumn fx:id="sr" prefWidth="61.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="#" />
+          <TableColumn fx:id="no" prefWidth="153.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="BUS NUMBER" />
+            <TableColumn fx:id="fr" minWidth="1.0" prefWidth="170.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="FROM" />
+            <TableColumn fx:id="t2" prefWidth="143.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="TO" />
+            <TableColumn fx:id="at" prefWidth="154.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="ARRIVAL TIME" />
+            <TableColumn fx:id="dt" prefWidth="181.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="DEPARTURE TIME" />
+        </columns>
+      </TableView>
+      <JFXButton fx:id="check" layoutX="671.0" layoutY="33.0" onAction="#check" prefHeight="48.0" prefWidth="123.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="SUBMIT" />
+      <Label fx:id="empty" layoutX="477.0" layoutY="99.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" />
+      <JFXButton fx:id="all" layoutX="809.0" layoutY="33.0" onAction="#allBusses" prefHeight="48.0" prefWidth="161.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="VIEW ALL BUSSES" />
+   </children>
+</AnchorPane>

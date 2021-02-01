@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+
+<BorderPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="895.0" prefWidth="1342.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.main1">
+   <left>
+      <VBox prefHeight="724.0" prefWidth="216.0" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton fx:id="dash" alignment="BOTTOM_CENTER" contentDisplay="TOP" onAction="#dashboard" prefHeight="125.0" prefWidth="216.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="DASHBOARD">
+               <graphic>
+                  <ImageView fitHeight="68.0" fitWidth="130.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@dashboard.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <Separator prefWidth="200.0" />
+            <JFXButton fx:id="details" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" onAction="#busDetails" prefHeight="125.0" prefWidth="216.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="BUS DETAILS">
+               <graphic>
+                  <ImageView fitHeight="68.0" fitWidth="130.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@busDetails.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <Separator prefWidth="200.0" />
+            <JFXButton fx:id="add" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="135.0" onAction="#addBus" prefHeight="125.0" prefWidth="216.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="ADD BUS">
+               <graphic>
+                  <ImageView fitHeight="68.0" fitWidth="130.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@addBus.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <Separator prefWidth="200.0" />
+            <JFXButton fx:id="view" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="260.0" onAction="#viewBooking" prefHeight="125.0" prefWidth="216.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="VIEW BOOKINGS">
+               <graphic>
+                  <ImageView fitHeight="68.0" fitWidth="130.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@busBooking.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <Separator prefWidth="200.0" />
+            <JFXButton fx:id="viewU" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="385.0" onAction="#viewUsers" prefHeight="125.0" prefWidth="216.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="VIEW USERS">
+               <graphic>
+                  <ImageView fitHeight="68.0" fitWidth="130.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@viewUser.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <Separator prefWidth="200.0" />
+            <JFXButton fx:id="upd" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="522.0" onAction="#update" prefHeight="125.0" prefWidth="216.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="UPDATE BUS">
+               <graphic>
+                  <ImageView fitHeight="68.0" fitWidth="130.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@manageBus.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <Separator prefWidth="200.0" />
+            <JFXButton fx:id="del" alignment="BOTTOM_CENTER" contentDisplay="TOP" onAction="#delete" prefHeight="125.0" prefWidth="216.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="DELETE BUS">
+               <graphic>
+                  <ImageView fitHeight="68.0" fitWidth="130.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@delete.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="897.0" stroke="BLACK" strokeType="INSIDE" width="1126.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </Rectangle>
+   </center>
+</BorderPane>

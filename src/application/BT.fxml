@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<BorderPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="939.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.bookticket">
+   <center>
+      <VBox prefHeight="400.0" prefWidth="822.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Departing:">
+               <VBox.margin>
+                  <Insets left="50.0" top="50.0" />
+               </VBox.margin>
+            </Label>
+            <JFXDatePicker fx:id="dept" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;">
+               <VBox.margin>
+                  <Insets left="150.0" top="-30.0" />
+               </VBox.margin>
+            </JFXDatePicker>
+            <Label style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="From:">
+               <VBox.margin>
+                  <Insets left="50.0" top="50.0" />
+               </VBox.margin>
+            </Label>
+            <JFXComboBox fx:id="from" prefHeight="31.0" prefWidth="205.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;">
+               <VBox.margin>
+                  <Insets left="150.0" top="-30.0" />
+               </VBox.margin>
+            </JFXComboBox>
+            <Label style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="To:">
+               <VBox.margin>
+                  <Insets left="450.0" top="-20.0" />
+               </VBox.margin>
+            </Label>
+            <JFXComboBox fx:id="to" prefHeight="31.0" prefWidth="195.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;">
+               <VBox.margin>
+                  <Insets left="500.0" top="-30.0" />
+               </VBox.margin>
+            </JFXComboBox>
+            <JFXButton fx:id="check" onAction="#check" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="CHECK AVAILABILITY">
+               <VBox.margin>
+                  <Insets left="50.0" top="50.0" />
+               </VBox.margin>
+            </JFXButton>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

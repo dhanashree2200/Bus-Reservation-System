@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.deletebus">
+   <children>
+      <Label layoutX="118.0" layoutY="154.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif; -fx-font-size: 20px;" text="Enter bus number" />
+      <JFXTextField fx:id="no" layoutX="301.0" layoutY="153.0" prefHeight="31.0" prefWidth="214.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" />
+      <JFXButton fx:id="del" layoutX="256.0" layoutY="220.0" onAction="#submit" prefHeight="44.0" prefWidth="89.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="SUBMIT" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTimePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="679.0" prefWidth="843.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.addbus">
+   <children>
+      <Label layoutX="57.0" layoutY="120.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="From:" />
+      <JFXComboBox fx:id="from" layoutX="200.0" layoutY="115.0" prefHeight="31.0" prefWidth="177.0" promptText="-- Choose --" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" />
+      <Label layoutX="465.0" layoutY="120.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="To:" />
+      <JFXComboBox fx:id="to" layoutX="563.0" layoutY="115.0" prefHeight="31.0" prefWidth="177.0" promptText="-- Choose --" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" />
+      <Label layoutX="57.0" layoutY="195.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Bus Type:" />
+      <JFXComboBox fx:id="type" layoutX="200.0" layoutY="190.0" prefHeight="31.0" prefWidth="177.0" promptText="-- Choose --" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" />
+      <Label layoutX="57.0" layoutY="280.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Departure time:" />
+      <Label layoutX="465.0" layoutY="280.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Arrival time:" />
+      <Label layoutX="58.0" layoutY="350.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Period Operating:" />
+      <Label layoutX="465.0" layoutY="398.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="To:" />
+      <JFXDatePicker fx:id="ofrom" layoutX="195.0" layoutY="390.0" promptText="-- Choose --" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" />
+      <JFXDatePicker fx:id="oto" layoutX="563.0" layoutY="384.0" promptText="-- Choose --" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" />
+      <Label layoutX="57.0" layoutY="405.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="From:" />
+      <JFXButton fx:id="submit" layoutX="367.0" layoutY="548.0" onAction="#submit1" prefHeight="47.0" prefWidth="104.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="SUBMIT" />
+      <JFXComboBox fx:id="type2" layoutX="564.0" layoutY="190.0" prefHeight="31.0" prefWidth="177.0" promptText="-- Choose --" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" />
+      <Label layoutX="60.0" layoutY="60.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Bus Number:" />
+      <JFXTextField fx:id="no" layoutX="195.0" layoutY="55.0" prefHeight="31.0" prefWidth="184.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" />
+      <JFXTimePicker fx:id="dtime" layoutX="185.0" layoutY="276.0" promptText="-- Choose --" />
+      <JFXTimePicker fx:id="atime" layoutX="573.0" layoutY="276.0" promptText="-- Choose --" />
+      <Label layoutX="57.0" layoutY="461.0" text="Amount:" />
+      <JFXTextField fx:id="amt" layoutX="192.0" layoutY="456.0" prefHeight="31.0" prefWidth="184.0" />
+   </children>
+</AnchorPane>

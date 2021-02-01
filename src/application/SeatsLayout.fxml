@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="613.0" prefWidth="908.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.seatlayout">
+   <children>
+      <JFXButton fx:id="o" layoutX="96.0" layoutY="152.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="1" textFill="WHITE" />
+      <JFXButton layoutX="96.0" layoutY="205.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="2" textFill="WHITE" />
+      <JFXButton layoutX="96.0" layoutY="306.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="3" textFill="WHITE" />
+      <JFXButton layoutX="96.0" layoutY="359.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="4" textFill="WHITE" />
+      <JFXButton layoutX="164.0" layoutY="152.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="5" textFill="WHITE" />
+      <JFXButton layoutX="164.0" layoutY="205.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="6" textFill="WHITE" />
+      <JFXButton layoutX="164.0" layoutY="306.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="7" textFill="WHITE" />
+      <JFXButton layoutX="164.0" layoutY="359.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="8" textFill="WHITE" />
+      <JFXButton layoutX="232.0" layoutY="152.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="9" textFill="WHITE" />
+      <JFXButton layoutX="232.0" layoutY="205.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="10" textFill="WHITE" />
+      <JFXButton layoutX="232.0" layoutY="306.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="11" textFill="WHITE" />
+      <JFXButton layoutX="232.0" layoutY="359.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="12" textFill="WHITE" />
+      <JFXButton layoutX="300.0" layoutY="152.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="13" textFill="WHITE" />
+      <JFXButton layoutX="300.0" layoutY="205.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="15" textFill="WHITE" />
+      <JFXButton layoutX="300.0" layoutY="306.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="16" textFill="WHITE" />
+      <JFXButton layoutX="300.0" layoutY="359.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="17" textFill="WHITE" />
+      <JFXButton layoutX="368.0" layoutY="152.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="18" textFill="WHITE" />
+      <JFXButton layoutX="368.0" layoutY="205.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="19" textFill="WHITE" />
+      <JFXButton layoutX="368.0" layoutY="306.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="20" textFill="WHITE" />
+      <JFXButton layoutX="368.0" layoutY="359.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="21" textFill="WHITE" />
+      <JFXButton layoutX="436.0" layoutY="152.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="22" textFill="WHITE" />
+      <JFXButton layoutX="436.0" layoutY="205.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="23" textFill="WHITE" />
+      <JFXButton layoutX="436.0" layoutY="306.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="25" textFill="WHITE" />
+      <JFXButton layoutX="436.0" layoutY="359.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="26" textFill="WHITE" />
+      <JFXButton layoutX="436.0" layoutY="257.0" onMouseClicked="#click" onMouseEntered="#enter" onMouseExited="#exit" prefHeight="31.0" prefWidth="40.0" style="-fx-border-color: #56ae33; -fx-background-color: #f34e2d;" text="24" textFill="WHITE" />
+      <JFXButton fx:id="book" layoutX="216.0" layoutY="460.0" onAction="#book" prefHeight="51.0" prefWidth="140.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif; -fx-background-color: #3498DB;" text="BOOK TICKET" textFill="WHITE" />
+      <Label layoutX="99.0" layoutY="54.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" text="Booked seat numbers:" />
+      <Label fx:id="stt" layoutX="283.0" layoutY="54.0" style="-fx-font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;" />
+   </children>
+</AnchorPane>
